@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "API (backend)", "type": "shell", "command": "npm run dev", "options": { "cwd": "${workspaceFolder}/backend" }, "isBackground": true, "problemMatcher": [] },
+    { "label": "Website (frontend)", "type": "shell", "command": "npm run dev", "options": { "cwd": "${workspaceFolder}/frontend" }, "isBackground": true, "problemMatcher": [] },
+    { "label": "Run Sudama Pharma (both)", "dependsOn": ["API (backend)", "Website (frontend)"], "problemMatcher": [] },
+    { "label": "Backend tests", "type": "shell", "command": "npm test", "options": { "cwd": "${workspaceFolder}/backend" }, "problemMatcher": [] }
+  ]
+}

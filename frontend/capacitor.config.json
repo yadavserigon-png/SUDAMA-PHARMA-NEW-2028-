@@ -1,0 +1,6 @@
+{
+  "appId": "in.sudamapharma.app",
+  "appName": "Sudama Pharma",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" }
+}
